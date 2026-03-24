@@ -24,7 +24,7 @@ header h1{
     font-variant: small-caps;
     font-family: "Passion One", sans-serif;
     font-weight:900;
-    font-size: 90px;
+    font-size: 10vw;
 }
 
 header p{
@@ -47,12 +47,13 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    font-size: 2em;
+    font-size: 5vw;
 }
 
 .estrofe{
     font-family: 'Sriracha', cursive;
-    height: 500px;
+    padding-left: 30px;
+
     
 
 }
@@ -70,7 +71,7 @@ section{
 
 #estrofe2 p{
     background-color: rgba(0, 0, 0, 0.486);
-    width: 400px;
+    display: inline-block;
     color: white;
     padding: 10px;
     
@@ -87,7 +88,7 @@ section{
 }
 #estrofe5 p{
     background-color: rgba(0, 0, 0, 0.486);
-    width: 400px;
+    display: inline-block;
     color: white;
     padding: 10px;
 }
