@@ -47,8 +47,13 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    font-size: 5vw;
+    font-size: 5vh
 }
+
+section p{
+    padding-bottom: 2em;
+}
+
 
 .estrofe{
     font-family: 'Sriracha', cursive;
@@ -60,10 +65,10 @@ section{
 
 #estrofe2{
     background-image: url('../imagens/background001.jpg');
-    height: 500px;
+    background-position:right center;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: inset 6px 6px 13px 0 black;
     background-size: cover;
-    background-position-x:100% ;
-    background-position-y:50% ;
     background-attachment: fixed;
     font-family:'Sriracha', cursive;
 
@@ -84,6 +89,7 @@ section{
     background-position-x:100% ;
     background-position-y:50% ;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0 black;
     font-family: 'Sriracha', cursive;
 }
 #estrofe5 p{
